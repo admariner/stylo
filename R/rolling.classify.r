@@ -99,7 +99,7 @@ if (gui == TRUE) {
       } else {
         message("\n")
         message("GUI could not be launched -- default settings will be used;")
-        message("otherwise please pass your variables as command-line agruments.")
+        message("otherwise please pass your variables as command-line arguments.")
       }
 }
 

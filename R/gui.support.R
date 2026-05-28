@@ -28,6 +28,7 @@
 }
 
 .stylo_gui_available <- function() {
+  #.stylo_tk_available() && .stylo_has_namespace("tcltk2")
   .stylo_tk_available() && .stylo_has_namespace("tcltk2")
 }
 
