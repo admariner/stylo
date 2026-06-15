@@ -1135,7 +1135,9 @@ if(tolower(classification.method) == "nsc") {
     classification.results = perform.nsc(training.set = primary.set[,1:mfw],
                                        test.set = secondary.set[,1:mfw],
                                        show.features = show.features)
-    classification.results.features = classification.results$features
+    if(exists("classification.results$features")) {
+        classification.results.features = classification.results$features
+    }
     classification.results = classification.results$y
 }
 
