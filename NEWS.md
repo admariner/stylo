@@ -1,5 +1,12 @@
 ## 'stylo' news ##
 
+### version 0.7.71, 2026/06/16
+  * this will be a LEGACY version, with minimal
+    maintenance in the future, a radically redesigned
+    version will be announced soon
+  * tcltk support restored
+  * bug in NSC classification fixed
+
 
 ### version 0.7.7, 2026/05/12
   * plotting engine thoroughly redesigned
